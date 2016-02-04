@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="{{ DEFAILT_LANG }}">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Stylish Portfolio - Start Bootstrap Theme</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="{{ SITEURL }}/theme/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="{{ SITEURL }}/theme/css/stylish-portfolio.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="{{ SITEURL }}/theme/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars"></i></a>
+    <nav id="sidebar-wrapper">
+        <ul class="sidebar-nav">
+            <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
+            <li class="sidebar-brand">
+                <a href="#top"  onclick = $("#menu-close").click(); >Gueb</a>
+            </li>
+            <li>
+                <a href="#top" onclick = $("#menu-close").click(); >Inicio</a>
+            </li>
+            <li>
+                <a href="#about" onclick = $("#menu-close").click(); >Acerca de</a>
+            </li>
+            <li>
+                <a href="#services" onclick = $("#menu-close").click(); >Servicios</a>
+            </li>
+            <li>
+                <a href="#portfolio" onclick = $("#menu-close").click(); >Portafolio</a>
+            </li>
+            <li>
+                <a href="#we" onclick = $("#menu-close").click(); >¿Quiénes somos?</a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- Header -->
+    <header id="top" class="header">
+        <div class="text-vertical-center">
+            <img style="opacity: 0.8;" width="50%" src="{{ SITEURL }}/theme/img/gueb-white.png">
+        </div>
+    </header>
+
+    <!-- About -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>¿Tienes una página web?</h2>
+                    <p class="lead">En este nuevo mundo de la internet, tu empresa necesita una página web en donde todo el mundo pueda encontrarte. Porque "si no está en internet no existe".</p>
+                </div>
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
+    </section>
+
+    <!-- Services -->
+    <!-- The circle icons use Font Awesome's stacked icon classes. For more information, visit http://fontawesome.io/examples/ -->
+    <section id="services" class="services bg-primary">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-lg-10 col-lg-offset-1">
+                    <h2>Nuestros servicios</h2>
+                    <hr class="small">
+                    <div class="row">
+                        <div class="col-md-6 col-sm-6">
+                            <div class="service-item">
+                                <span class="fa-stack fa-4x">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-cloud fa-stack-1x text-primary"></i>
+                            </span>
+                                <h4>
+                                    <strong>Diseño Web</strong>
+                                </h4>
+                                <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseWeb" aria-expanded="false" aria-controls="collapseWeb">Más información</button>
+                                <div style="margin-top:10px" class="collapse" id="collapseWeb">
+                                  <div class="well">
+                                    <div class="row">
+                                        <div class="col-md-2 col-xs-3 col-lg-offset-1">
+                                            <img width="100%" src="{{ SITEURL }}/theme/img/iconos_programacion/html.png">
+                                        </div>
+                                        <div class="col-md-2 col-xs-3">
+                                            <img width="100%" src="{{ SITEURL }}/theme/img/iconos_programacion/css.png">
+                                        </div>
+                                        <div class="col-md-2 col-xs-3">
+                                            <img width="100%" src="{{ SITEURL }}/theme/img/iconos_programacion/jq.png">
+                                        </div>
+                                        <div class="col-md-2 col-xs-3">
+                                            <img width="100%" src="{{ SITEURL }}/theme/img/iconos_programacion/js.png">
+                                        </div>
+                                        <div class="col-md-2 hidden-xs">
+                                            <img width="100%" src="{{ SITEURL }}/theme/img/iconos_programacion/py.png">
+                                        </div>
+                                    </div>
+                                  </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-sm-6">
+                            <div class="service-item">
+                                <span class="fa-stack fa-4x">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-compass fa-stack-1x text-primary"></i>
+                            </span>
+                                <h4>
+                                    <strong>Diseño Gráfico</strong>
+                                </h4>
+                               <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseDesign" aria-expanded="false" aria-controls="collapseDesign">Más información</button>
+                                <div style="margin-top:10px" class="collapse" id="collapseDesign">
+                                  <div class="well">
+                                    <div class="row">
+                                        <div class="col-md-2 col-xs-3 col-lg-offset-1">
+                                            <img width="100%" src="{{ SITEURL }}/theme/img/iconos_diseno/ai.png">
+                                        </div>
+                                        <div class="col-md-2 col-xs-3">
+                                            <img width="100%" src="{{ SITEURL }}/theme/img/iconos_diseno/ps.png">
+                                        </div>
+                                        <div class="col-md-2 col-xs-3">
+                                            <img width="100%" src="{{ SITEURL }}/theme/img/iconos_diseno/ae.png">
+                                        </div>
+                                        <div class="col-md-2 col-xs-3">
+                                            <img width="100%" src="{{ SITEURL }}/theme/img/iconos_diseno/pr.png">
+                                        </div>
+                                        <div class="col-md-2 hidden-xs">
+                                            <img width="100%" src="{{ SITEURL }}/theme/img/iconos_diseno/id.png">
+                                        </div>
+                                    </div>
+                                  </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.row (nested) -->
+                </div>
+                <!-- /.col-lg-10 -->
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
+    </section>
+
+    <!-- Portfolio -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 col-lg-offset-1 text-center">
+                    <h2>Portafolio</h2>
+                    <hr class="small">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="portfolio-item">
+                                <a href="#">
+                                    <img class="img-portfolio img-responsive" src="img/portfolio-1.jpg">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.row (nested) -->
+                    <a href="#" class="btn btn-dark">Ver mas</a>
+                </div>
+                <!-- /.col-lg-10 -->
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
+    </section>
+
+    <!-- Call to Action -->
+    <section id="we" class="services bg-primary">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-lg-10 col-lg-offset-1">
+                    <h2>¿Quiénes somos?</h2>
+                    <hr class="small">
+                    <div class="row">
+                        <div class="col-sm-6 col-md-4 col-lg-offset-2">
+                            <div class="thumbnail">
+                              <img style="margin-top:10px;" src="{{ SITEURL }}/theme/img/roger.jpg" class="img-circle" width="250px" height="250px">
+                              <div style="margin-left:10px; margin-right:10px;" class="caption">
+                                <h3>Roger González</h3>
+                                <p style="font-size:16px;">Roger es un programador web con experiencia en desarrollo de aplicaciones en Python, Wordpress y cualquier tecnología que se le atraviese.</p>
+                                <p><a href="https://github.com/Rogergonzalez21" target="_blank" class="btn btn-primary" role="button"><i class="fa fa-github"></i> Github</a> <a href="http://rogerandresgonzalez.com.ve" target="_blank" class="btn btn-primary" role="button"><i class="fa fa-globe"></i> Web</a> <a href="https://twitter.com/RogerGonzalez21" target="_blank" class="btn btn-primary" role="button"><i class="fa fa-twitter"></i> Twitter</a></p>
+                              </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-4">
+                            <div class="thumbnail">
+                              <img style="margin-top:10px;" src="{{ SITEURL }}/theme/img/juan.jpg" class="img-circle" width="250px" height="250px">
+                              <div style="margin-left:10px; margin-right:10px;" class="caption">
+                                <h3>Juan González</h3>
+                                 <p style="font-size:16px;">
+                                    Juan Carlos es estudiante de diseño gráfico con amplia experiencia en diseño de logos, banners, vectores y ediciones en general. Tambien ama los gatos.
+                                </p>
+                                <p><a href="http://www.behance.com/juancarlos242" target="_blank" class="btn btn-primary" role="button"><i class="fa fa-behance"></i> Behance</a> <a href="https://www.facebook.com/Juancarlos2429" target="_blank" class="btn btn-primary" role="button"><i class="fa fa-facebook"></i> Facebook</a></p>
+                              </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <aside class="call-to-action bg-primary">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h3>¡Contáctanos!</h3>
+                    <a href="mailto:programador@gueb.com.ve" class="btn btn-lg btn-light">programador@gueb.com.ve</a>
+                    <a href="mailto:disenador@gueb.com.ve" class="btn btn-lg btn-dark">disenador@gueb.com.ve</a>
+                </div>
+            </div>
+        </div>
+    </aside>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 col-lg-offset-1 text-center">
+                    <img width="25%" src="{{ SITEURL }}/theme/img/gueb-black.png">
+                    <br>
+                    <ul class="list-inline">
+                        <li>
+                            <a class="black" href="#"><i class="fa fa-facebook fa-fw fa-3x"></i></a>
+                        </li>
+                        <li>
+                            <a class="black" href="#"><i class="fa fa-instagram fa-fw fa-3x"></i></a>
+                        </li>
+                        <li>
+                            <a class="black" href="#"><i class="fa fa-twitter fa-fw fa-3x"></i></a>
+                        </li>
+                    </ul>
+                    <hr class="small">
+                    <p class="text-muted">Copyright &copy; Gueb 2016</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="{{ SITEURL }}/theme/js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="{{ SITEURL }}/theme/js/bootstrap.min.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script>
+    // Closes the sidebar menu
+    $("#menu-close").click(function(e) {
+        e.preventDefault();
+        $("#sidebar-wrapper").toggleClass("active");
+    });
+
+    // Opens the sidebar menu
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#sidebar-wrapper").toggleClass("active");
+    });
+
+    // Scrolls to the selected menu item on the page
+    $(function() {
+        $('a[href*=#]:not([href=#])').click(function() {
+            if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
+
+                var target = $(this.hash);
+                target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                if (target.length) {
+                    $('html,body').animate({
+                        scrollTop: target.offset().top
+                    }, 1000);
+                    return false;
+                }
+            }
+        });
+    });
+    </script>
+</body>
+
+</html>
